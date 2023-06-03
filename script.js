@@ -47,18 +47,6 @@ btnScrollTo.addEventListener('click', function () {
 
 ////////////////////////////////////
 // Page Navigation by Event Delegation
-// const links = document.querySelectorAll('.nav__link');
-// links.forEach(function (el) {
-//   el.addEventListener('click', function (e) {
-//     e.preventDefault();
-
-//     const id = this.getAttribute('href');
-//     console.log(id);
-//     document.querySelector(id).scrollIntoView({
-//       behavior: 'smooth'
-//     });
-//   });
-// })
 
 // 
 const links = document.querySelector('.nav__links');
